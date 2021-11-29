@@ -10,4 +10,4 @@ public class PostgresApplication {
 		SpringApplication.run(PostgresApplication.class, args);
 	}
 
-}
+} 

@@ -35,7 +35,7 @@ let cadastrarMedico = () => {
      requisicao.setRequestHeader("Content-Type", "application/json")
      // converte json em string
      requisicao.send(JSON.stringify(medico))
-     carregaTabelaMedicos()
+     carregaTabelaMedicos() 
 }
 
 
